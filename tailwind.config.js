@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern":
-          "url(https://www.instagram.com/static/images/homepage/screenshots/screenshot1-2x.png/cfd999368de3.png)",
+          "url(https://www.instagram.com/static/images/homepage/phones/home-phones-2x.png/cbc7174b4f05.png)",
       },
     },
   },
