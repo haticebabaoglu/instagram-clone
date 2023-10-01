@@ -6,6 +6,6 @@
   html,
   body,
   #root {
-    @apply h-full;
+    @apply h-full bg-zinc-50
   }
 }
