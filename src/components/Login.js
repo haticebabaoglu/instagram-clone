@@ -4,14 +4,16 @@ import { AiFillFacebook } from "react-icons/ai";
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 
-function LoginPage() {
-  const history = useHistory();
 
-  const handleLogin = () => {
-    history.push('/');
-  };
+export default function Login() {
 
-function Login() {
+  function LoginPage() {
+    const history = useHistory();
+  
+    const handleLogin = () => {
+      history.push('/');
+    };
+
   const ref = useRef();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -136,4 +138,4 @@ function Login() {
   );
 }
 
-export default Login;
+
