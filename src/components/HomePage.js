@@ -1,11 +1,8 @@
-// src/components/HomePage.js
-
 import React from "react";
 
 function HomePage() {
   return (
     <div className="bg-gray-100 h-screen">
-      {/* Başlık ve Menü */}
       <header className="bg-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-3xl font-semibold">Instagram Clone</h1>
@@ -41,8 +38,6 @@ function HomePage() {
               <p className="text-gray-600">Gönderi açıklaması.</p>
             </div>
           </div>
-          {/* Diğer gönderiler */}
-          {/* ... */}
         </div>
       </main>
     </div>

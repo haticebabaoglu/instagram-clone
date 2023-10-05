@@ -1,19 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import Input from "./Input";
 import { AiFillFacebook } from "react-icons/ai";
-import React from 'react';
-import { useHistory } from 'react-router-dom';
-
+import React from "react";
 
 export default function Login() {
-
-  function LoginPage() {
-    const history = useHistory();
-  
-    const handleLogin = () => {
-      history.push('/');
-    };
-
   const ref = useRef();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -99,7 +89,6 @@ export default function Login() {
             <button
               type="submit"
               disabled={!enable}
-              onClick={handleLogin}
               className="h-[30px] mt-1 rounded bg-brand font-medium text-white text-sm disabled:opacity-50"
             >
               Log In
@@ -137,5 +126,3 @@ export default function Login() {
     </div>
   );
 }
-
-
